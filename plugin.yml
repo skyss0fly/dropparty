@@ -1,6 +1,8 @@
 name: DropParty
-author: HotshotHD
-version: 1.0.3
+author: 
+- HotshotHD
+- skyss0fly
+version: 1.1.3
 description: Schedule DropParties for your server
 main: dropparty\DropParty
-api: [1.12.0, 1.13.0]
+api: 4.17.0

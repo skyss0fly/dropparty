@@ -8,6 +8,7 @@ use dropparty\task\DropPartyTask;
 use pocketmine\utils\Config;
 
 
+class 	Pluginbase {
 	public $secs = 0;
 	public $tasks = [];
 	public $status;

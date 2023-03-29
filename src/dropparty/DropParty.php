@@ -7,8 +7,7 @@ use dropparty\task\DropItemsTask;
 use dropparty\task\DropPartyTask;
 use pocketmine\utils\Config;
 
-class DropParty extends PluginBase {
-	
+
 	public $secs = 0;
 	public $tasks = [];
 	public $status;
@@ -45,6 +44,10 @@ class DropParty extends PluginBase {
 		$this->getServer()->getScheduler()->scheduleRepeatingTask(new task\DropItemsTask($this), 20);
 	}
 	
+
+class DropParty extends PluginBase {
+	
+
 	public function config() {
 		return $this->cfg;
 	}
